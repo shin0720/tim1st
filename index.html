@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>메인</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/handlebars/4.7.7/handlebars.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+  <link rel="stylesheet" href="./css/all.css">
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <link rel="icon" href="./img/icon.png">
+</head>
+
+<body>
+  <header id="header">
+    <div class="logo">
+      <a href="./index.html"><img src="./img/logo copy.png" alt="로고"></a>
+      
+    </div>
+
+    <!-- 햄버거 메뉴 추가 -->
+    <div id="barMenu">
+      <div class="bar"></div>
+    </div>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="./sub/Company/index_intro.html">잇플소개</a></li>
+        <li><a href="./sub/notice/index.html">공지사항</a></li>
+        <li><a href="./sub/magazine/index.html">매거진</a></li>
+        <li class="win_pop"><a href="./sub/login/index.html">로그인</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- header -->
+  <div id="banner">
+    <div class="container">
+      <div class="banner-slider">
+        <div><a href="./sub/day/index.html"><img src="./img/banner1.png" alt="오늘은뭐먹지"></a></div>
+        <div><a href="./sub/content1/index.html"><img src="./img/banner2.jpg" alt="추천맛집"></a></div>
+        <div><a href="./sub/cupon/index.html"><img src="./img/banner3.png" alt="쿠폰"></a></div>
+      </div>
+    </div>
+  </div>
+  <section id="content1">
+    <div class="container">
+      <div class="content1">
+        <!-- <h2>음식 종류 메뉴</h2> -->
+        <article class="slide korean">
+          <div class="title">
+            <h2>한식</h2>
+            <i class="fa-solid fa-bowl-food"></i>
+          </div>
+          <div class="tab_hashtag">
+              <span class="hashtag" data-situation="혼밥">#혼밥</span>
+              <span class="hashtag" data-situation="아이동반">#아이동반</span>
+              <span class="hashtag" data-situation="노키즈존">#노키즈존</span><br>
+              <span class="hashtag" data-situation="강아지동반">#강아지동반</span>
+              <span class="hashtag" data-situation="회식">#회식</span>
+              <span class="hashtag" data-situation="데이트">#데이트</span><br>
+              <span class="hashtag" data-situation="가족모임">#가족모임</span>
+              <span class="hashtag" data-situation="친구모임">#친구모임</span>
+          </div>
+          <div class="butten">
+            <a href="./sub/content1/index.html?category=한식">식당 검색하기</a>
+          </div>
+        </article>
+        <article class="slide western">
+          <div class="title">
+            <h2>양식</h2>
+            <i class="fa-solid fa-utensils"></i>
+
+          </div>
+          <div class="tab_hashtag">
+              <span class="hashtag" data-situation="혼밥">#혼밥</span>
+              <span class="hashtag" data-situation="아이동반">#아이동반</span>
+              <span class="hashtag" data-situation="노키즈존">#노키즈존</span><br>
+              <span class="hashtag" data-situation="강아지동반">#강아지동반</span>
+              <span class="hashtag" data-situation="회식">#회식</span>
+              <span class="hashtag" data-situation="데이트">#데이트</span><br>
+              <span class="hashtag" data-situation="가족모임">#가족모임</span>
+              <span class="hashtag" data-situation="친구모임">#친구모임</span>
+          </div>
+          <div class="butten">            
+            <a href="./sub/content1/index.html?category=양식">식당 검색하기</a>
+          </div>
+        </article>
+        <article class="slide japanese">
+          <div class="title">
+            <h2>일식</h2>
+            <i class="fa-solid fa-fish-fins"></i>
+          </div>
+          <div class="tab_hashtag">
+              <span class="hashtag" data-situation="혼밥">#혼밥</span>
+              <span class="hashtag" data-situation="아이동반">#아이동반</span>
+              <span class="hashtag" data-situation="노키즈존">#노키즈존</span><br>
+              <span class="hashtag" data-situation="강아지동반">#강아지동반</span>
+              <span class="hashtag" data-situation="회식">#회식</span>
+              <span class="hashtag" data-situation="데이트">#데이트</span><br>
+              <span class="hashtag" data-situation="가족모임">#가족모임</span>
+              <span class="hashtag" data-situation="친구모임">#친구모임</span>
+          </div>
+          <div class="butten">            
+            <a href="./sub/content1/index.html?category=일식">식당 검색하기</a>
+          </div>
+        </article>
+        <article class="slide chinese">
+          <div class="title">
+            <h2>중식</h2>
+            <i class="fa-solid fa-plate-wheat"></i>
+          </div>
+          <div class="tab_hashtag">
+              <span class="hashtag" data-situation="혼밥">#혼밥</span>
+              <span class="hashtag" data-situation="아이동반">#아이동반</span>
+              <span class="hashtag" data-situation="노키즈존">#노키즈존</span><br>
+              <span class="hashtag" data-situation="강아지동반">#강아지동반</span>
+              <span class="hashtag" data-situation="회식">#회식</span>
+              <span class="hashtag" data-situation="데이트">#데이트</span><br>
+              <span class="hashtag" data-situation="가족모임">#가족모임</span>
+              <span class="hashtag" data-situation="친구모임">#친구모임</span>
+          </div>
+          <div class="butten">
+            <a href="./sub/content1/index.html?category=중식">식당 검색하기</a>
+          </div>
+        </article>
+        <article class="slide etc">
+          <div class="title">
+            <h2>기타</h2>
+            <i class="fa-solid fa-mug-saucer"></i>
+          </div>
+          <div class="tab_hashtag">
+              <span class="hashtag" data-situation="혼밥">#혼밥</span>
+              <span class="hashtag" data-situation="아이동반">#아이동반</span>
+              <span class="hashtag" data-situation="노키즈존">#노키즈존</span><br>
+              <span class="hashtag" data-situation="강아지동반">#강아지동반</span>
+              <span class="hashtag" data-situation="회식">#회식</span>
+              <span class="hashtag" data-situation="데이트">#데이트</span><br>
+              <span class="hashtag" data-situation="가족모임">#가족모임</span>
+              <span class="hashtag" data-situation="친구모임">#친구모임</span>
+          </div>
+          <div class="butten">
+            <a href="./sub/content1/index.html?category=기타">식당 검색하기</a>
+          </div>
+        </article>
+      </div> <!--.content1 -->
+    </div>
+  </section>
+  <section id="content2">
+    <div class="container">
+      <h2 class="h2">맛집찾기</h2>
+      <div id="map">
+        <div class="neighborhood-discovery">
+          <div class="places-panel panel no-scroll">
+            <header class="navbar">
+              <div class="search-input">
+                <input class="place-search-input" placeholder="Search nearby places">
+                <button class="place-search-button">
+                  <img src="https://fonts.gstatic.com/s/i/googlematerialicons/search/v11/24px.svg" alt="search" />
+                </button>
+              </div>
+            </header>
+            <div class="results">
+              <ul class="place-results-list"></ul>
+            </div>
+            <button class="show-more-button sticky">
+              <span>Show More</span>
+              <img class="right" src="https://fonts.gstatic.com/s/i/googlematerialicons/expand_more/v11/24px.svg"
+                alt="expand" />
+            </button>
+          </div>
+          <div class="details-panel panel"></div>
+          <div class="map"></div>
+          <div class="photo-modal">
+            <img alt="place photo" />
+            <div>
+              <button class="back-button">
+                <img class="icon" src="https://fonts.gstatic.com/s/i/googlematerialicons/arrow_back/v11/24px.svg"
+                  alt="back" />
+              </button>
+              <div class="photo-text">
+                <div class="photo-place"></div>
+                <div class="photo-attrs">Photo by <span></span></div>
+              </div>
+            </div>
+          </div>
+          <svg class="marker-pin" xmlns="http://www.w3.org/2000/svg" width="26" height="38" fill="none">
+            <path
+              d="M13 0C5.817 0 0 5.93 0 13.267c0 7.862 5.59 10.81 9.555 17.624C12.09 35.248 11.342 38 13 38c1.723 0 .975-2.817 3.445-7.043C20.085 24.503 26 21.162 26 13.267 26 5.93 20.183 0 13 0Z" />
+          </svg>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Handlebars 템플릿들 -->
+  <script id="nd-place-results-tmpl" type="text/x-handlebars-template">
+    {{#each places}}
+      <li class="place-result">
+        <div class="text">
+          <button class="name">{{name}}</button>
+          <div class="info">{{type}}</div>
+        </div>
+        <button class="photo" style="background-image:url({{photos.0.urlSmall}})" aria-label="show photo in viewer"></button>
+      </li>
+    {{/each}}
+  </script>
+
+  <script id="nd-place-details-tmpl" type="text/x-handlebars-template">
+    <div class="navbar">
+      <button class="back-button">
+        <img class="icon" src="https://fonts.gstatic.com/s/i/googlematerialicons/arrow_back/v11/24px.svg" alt="back"/>
+        Back
+      </button>
+    </div>
+    <header>
+      <h2>{{name}}</h2>
+      <div class="info">
+        <a href="{{url}}" target="_blank">See on Google Maps</a>
+      </div>
+      {{#if type}}
+        <div class="info">{{type}}</div>
+      {{/if}}
+    </header>
+    <div class="section">
+      {{#if address}}
+        <div class="contact">
+          <img src="https://fonts.gstatic.com/s/i/googlematerialicons/place/v10/24px.svg" alt="Address" class="icon"/>
+          <div class="text">
+            {{address}}
+          </div>
+        </div>
+      {{/if}}
+      {{#if website}}
+        <div class="contact">
+          <img src="https://fonts.gstatic.com/s/i/googlematerialicons/public/v10/24px.svg" alt="Website" class="icon"/>
+          <div class="text">
+            <a href="{{website}}" target="_blank">{{websiteDomain}}</a>
+          </div>
+        </div>
+      {{/if}}
+      {{#if phoneNumber}}
+        <div class="contact">
+          <img src="https://fonts.gstatic.com/s/i/googlematerialicons/phone/v10/24px.svg" alt="Phone number" class="icon"/>
+          <div class="text">
+            {{phoneNumber}}
+          </div>
+        </div>
+      {{/if}}
+      {{#if openingHours}}
+        <div class="contact">
+          <img src="https://fonts.gstatic.com/s/i/googlematerialicons/schedule/v12/24px.svg" alt="Opening hours" class="icon"/>
+          <div class="text">
+            {{#each openingHours}}
+              <div>
+                <span class="weekday">{{days}}</span>
+                <span class="hours">{{hours}}</span>
+              </div>
+            {{/each}}
+          </div>
+        </div>
+      {{/if}}
+    </div>
+    {{#if photos}}
+      <div class="photos section">
+        {{#each photos}}
+          <button class="photo" style="background-image:url({{urlLarge}})" aria-label="show photo in viewer"></button>
+        {{/each}}
+      </div>
+    {{/if}}
+    {{#if html_attributions}}
+      <div class="section">
+        {{#each html_attributions}}
+          <p class="attribution">{{{this}}}</p>
+        {{/each}}
+      </div>
+    {{/if}}
+  </script>
+
+
+
+
+  <section id="content3">
+    <div class="container">
+      <div class="content3">
+        <h2>Ranking</h2>
+        <article class="con_3">
+          <div class="box1">
+            <span>BEST 01</span>
+            <a href="./sub/rank/rank_6.html"><img src="./con3_img/con3_1.png" alt="아임카츠">
+            </a>
+            <p>아임카츠</p>
+          </div>
+          <div class="box2">
+            <span>BEST 02</span>
+            <a href="./sub/rank/rank_7.html"><img src="./con3_img/con3_2.png" alt="큰기와집"></a>
+            <p>큰기와집</p>
+          </div>
+          <div class="box3">
+            <span>BEST 03</span>
+            <a href="./sub/rank/rank_8.html"><img src="./con3_img/con3_3.png" alt="서관면옥"></a>
+            <p>서관면옥</p>
+          </div>
+          <div class="box4">
+            <span>BEST 04</span>
+            <a href="./sub/rank/rank_9.html"><img src="./con3_img/con3_4.png" alt="포레스트"></a>
+            <p>포레스트</p>
+          </div>
+          <div class="box5">
+            <span>BEST 05</span>
+            <a href="./sub/rank/rank_10.html"><img src="./con3_img/con3_5.png" alt="쭈꾸"></a>
+            <p>쭈꾸</p>
+          </div>
+          <div class="box6">
+            <span>BEST 06</span>
+            <a href="./sub/rank/rank_1.html"><img src="./con3_img/con3_6.png" alt="민배 아리랑"></a>
+            <p>민배 아리랑</p>
+          </div>
+          <div class="box7">
+            <span>BEST 07</span>
+            <a href="./sub/rank/rank_2.html"><img src="./con3_img/con3_7.png" alt="계략"></a>
+            <p>계략</p>
+          </div>
+          <div class="box8">
+            <span>BEST 08</span>
+            <a href="./sub/rank/rank_3.html"><img src="./con3_img/con3_8.png" alt="가담"></a>
+            <p>가담</p>
+          </div>
+          <div class="box9">
+            <span>BEST 09</span>
+            <a href="./sub/rank/rank_4.html"><img src="./con3_img/con3_9.png" alt="분식 창고"></a>
+            <p>분식 창고</p>
+          </div>
+          <div class="box10">
+            <span>BEST 10</span>
+            <a href="./sub/rank/rank_5.html"><img src="./con3_img/con3_10.png" alt="리연탄"></a>
+            <p>리연탄</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section id="content4">
+    <div class="container">
+      <h2 class="h2">Eatple Magazine</h2>
+      <div class="content4">
+        <div class="box1">
+          <a href="./sub/magazine/page1.html" class="magazine">
+            <img src="./con4_img/con4_1.png" alt="콩국수">
+            <div class="blur"></div>
+            <span>고소하고 시원한 콩물에 더위가 싹 가시는 콩국수. <br> 영양이 풍부하고 집에서도 손쉽게 만들어 먹을 수 있어 여름철 자주 즐겨 먹는 별미 중 하나 '콩국수'. </span>
+          </a>
+        </div>
+        <div class="box2">
+          <a href="./sub/magazine/page2.html" class="magazine">
+            <img src="./con4_img/con4_2.png" alt="빙수">
+            <div class="blur"></div>
+            <span>오리지널 팥빙수부터 과일 빙수 <br> 기존의 음료에 토핑을 올려 빙수처럼<br> 즐길 수 있는 메뉴까지,
+              합리적인 가격, 간편한 용량 <br> 혼자서도 '쿨'하게 즐기는 '컵빙수'.</span>
+          </a>
+        </div>
+        <div class="box3">
+          <a href="./sub/magazine/page3.html" class="magazine">
+            <img src="./con4_img/sam.png" alt="삼계탕">
+            <div class="blur"></div>
+            <span>몸을 움직이지 않고 가만히 있어도 땀이 물 흐르듯 흐르는 요즘, 더위 이기는 보양식 한 그릇이 <br> 간절히 생각난다. 보양식하면 모두가 떠올리는 음식 <br> '삼계탕'. </span>
+          </a>
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
+  <!-- .content4 -->
+
+<footer id="footer" class="clearfix">
+        <div class="container">
+            <div class="footer">
+                <div class="f_logo">
+                <img src="./img/logo copy.png" alt="로고이미지">
+            </div>
+            <div class="f_asid">
+                <div class="f_menu">
+                    <ul>
+                        <li><a href="javascript:;">이용약관</a></li>
+                        <li><a href="javascript:;">개인정보방침</a></li>
+                        <li><a href="javascript:;">사이트맵</a></li>
+
+                    </ul>
+                </div>
+                <div class="f_cont">
+                    <span>상호:잇플컴퍼니</span>
+                    <span>대표이사:추강현</span>
+                    <span>개인정보관리책임자:허윤아</span><br>
+                    <span>문의: eatple@gmail.com</span>
+                    <span>사업자번호: 123-45-6789</span>
+                    <span>통신판매업신고번호: 2025-서울강서-01124호</span><br>
+                    <span>서울특별시 강서구 화곡로 149 삼당빌딩 3~5층</span>
+                </div>
+                <div class="f_copy">
+                    <span> COPYRIGHT 2025 eatple Inc</span>
+                    <span> All Rights Reserved</span>
+
+                </div>
+            </div>
+            </div>
+            
+
+
+        </div>
+    </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+  <!-- map.js 파일 연결 -->
+  <script src="./js/map.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLdJsow65IRGIN41RweNvjUmv12eH2bvs&callback=initMap&libraries=places,geometry&solution_channel=GMP_QB_neighborhooddiscovery_v3_cADF"
+    async defer></script>
+
+  <!-- 3. 실행 스크립트 -->
+  <script>
+    $(window).resize(function(){
+      if($(window).width() <961){
+         $(".slide").click(function(){
+            window.location.href = "./sub/content1/index.html"
+       });
+      }
+    })
+    
+    // if($(window).width())<768
+    //   {
+
+    //   }     $(".slide").click(function(){
+    //         window.location.href = "./sub/content1/index.html"
+    //    })
+
+       // .content1
+    document.addEventListener('DOMContentLoaded', () => {
+
+  // 각 article별로 선택된 해시태그들을 저장할 객체
+  const selectedHashtags = {
+    korean: new Set(),
+    western: new Set(), 
+    japanese: new Set(),
+    chinese: new Set(),
+    etc: new Set()
+  };
+      
+    function getCategoryKey(article) {
+    if (article.classList.contains('korean')) {
+      return 'korean';
+    } else if (article.classList.contains('western')) {
+      return 'western';
+    } else if (article.classList.contains('japanese')) {
+      return 'japanese';
+    } else if (article.classList.contains('chinese')) {
+      return 'chinese';
+    } else if (article.classList.contains('etc')) {
+      return 'etc';
+    }
+    return '';
+  }
+      
+
+  // 해시태그 클릭 이벤트 - 다중 선택 가능
+  document.querySelectorAll('.hashtag').forEach(tag => {
+    tag.addEventListener('click', (e) => {
+      e.preventDefault();
+      
+      
+      // 해당 해시태그가 속한 article의 카테고리 찾기
+      const article = tag.closest('article');
+      const categoryKey = getCategoryKey(article);
+      const situation = tag.dataset.situation;
+      // let categoryKey = '';
+
+      
+      // 토글 기능: 이미 선택된 해시태그면 제거, 아니면 추가
+      if (selectedHashtags[categoryKey].has(situation)) {
+        selectedHashtags[categoryKey].delete(situation);
+        tag.classList.remove('selected');
+      } else {
+        selectedHashtags[categoryKey].add(situation);
+        tag.classList.add('selected');
+      }
+      
+      console.log(`${categoryKey} 카테고리 선택된 상황들:`, Array.from(selectedHashtags[categoryKey]));
+    });
+  });
+  // 마우스가 카드를 벗어날 때 해시태그 초기화
+  document.querySelectorAll('.content1 article').forEach(article => {
+    article.addEventListener('mouseleave', () => {
+      const categoryKey = getCategoryKey(article);
+      
+      // 해당 카테고리의 선택된 해시태그 초기화
+      selectedHashtags[categoryKey].clear();
+      
+      // 해당 article 내의 모든 해시태그에서 selected 클래스 제거
+      article.querySelectorAll('.hashtag').forEach(tag => {
+        tag.classList.remove('selected');
+      });
+    });
+  });
+
+  // "식당 검색하기" 버튼 클릭 이벤트
+  document.querySelectorAll('.butten a').forEach(button => {
+    button.addEventListener('click', (e) => {
+      e.preventDefault();
+      
+      // 해당 버튼이 속한 article의 카테고리 찾기
+      const article = button.closest('article');
+      let category = '';
+      let categoryKey = '';
+      
+      if (article.classList.contains('korean')) {
+        category = '한식';
+        categoryKey = 'korean';
+      } else if (article.classList.contains('western')) {
+        category = '양식';
+        categoryKey = 'western';
+      } else if (article.classList.contains('japanese')) {
+        category = '일식';
+        categoryKey = 'japanese';
+      } else if (article.classList.contains('chinese')) {
+        category = '중식';
+        categoryKey = 'chinese';
+      } else if (article.classList.contains('etc')) {
+        category = '기타';
+        categoryKey = 'etc';
+      }
+      
+      // 선택된 상황들을 배열로 변환
+      const selectedSituations = Array.from(selectedHashtags[categoryKey]);
+      
+      // URL 파라미터 생성
+      let searchUrl = './sub/content1/index.html?';
+      const params = [`category=${encodeURIComponent(category)}`];
+      
+      if (selectedSituations.length > 0) {
+        // 상황 매핑 (메인페이지 → 서브페이지)
+        const mappedSituations = selectedSituations.map(situation => {
+          switch(situation) {
+            case '아이동반': return '아이동반';
+            case '반려견동반': return '반려견 동반';
+            case '가족모임': return '가족 모임';
+            case '친구모임': return '친구 모임';
+            default: return situation;
+          }
+        });
+        
+        // 여러 상황을 쉼표로 구분하여 전달
+        params.push(`situations=${encodeURIComponent(mappedSituations.join(','))}`);
+      }
+      
+      searchUrl += params.join('&');
+      window.location.href = searchUrl;
+    });
+  });
+});
+
+
+
+
+
+    //배너
+    $('.banner-slider').slick({
+      autoplay: true,
+      autoplaySpeed: 3000,
+      arrows: true,
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      cssEase: 'ease-out',
+      responsive: [
+        {
+          breakpoint: 600,
+          settings: {
+            dots: false
+          }
+        }
+      ]
+    });
+
+    // 배너 슬라이더
+    $('.banner-slider').on('click', '.slick-slide', function (e) {
+      if (!$(e.target).hasClass('slick-arrow') && !$(e.target).hasClass('slick-dots')) {
+        var $link = $(this).find('a');
+        var href = $link.attr('href');
+
+
+        if (href && href !== '' && href !== '#') {
+          window.location.href = href;
+        }
+      }
+    });
+
+    //로그인 팝업창
+    $(".win_pop").click(function (e) {
+      e.preventDefault();
+      window.open("./sub/login/index.html", 'login', 'width=410, height=500, left=200, top=200')
+    });
+
+
+
+    //햄버거 메뉴
+    $("#barMenu").click(function () {
+      $(".nav").toggleClass("open");
+    });
+
+
+
+
+    // .content3 (다장 표시 유지, 창문 내 동일 비율 스케일)
+    $(".con_3").slick({
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      arrows: true,
+      appendArrows: $(".content3"), // 화살표를 집 컨테이너에 붙여 overflow 영향 회피
+      dots: false,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 1000,
+      adaptiveHeight: false,
+      variableWidth: false,
+      responsive: [
+        { breakpoint: 3000, settings: { slidesToShow: 5, slidesToScroll: 1 } },
+        { breakpoint: 1200, settings: { slidesToShow: 4, slidesToScroll: 1 } },
+        { breakpoint: 960, settings: { slidesToShow: 4, slidesToScroll: 1 } },
+        { breakpoint: 680, settings: { slidesToShow: 3, slidesToScroll: 1 } },
+        { breakpoint: 480, settings: { slidesToShow: 2, slidesToScroll: 1 } }
+      ]
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
