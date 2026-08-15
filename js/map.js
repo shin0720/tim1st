@@ -444,7 +444,7 @@ function NeighborhoodDiscovery(configuration) {
         ],
         "mapRadius": 5000,
         "mapOptions": {"center":{"lat":37.5406979,"lng":126.8472722},"fullscreenControl":true,"mapTypeControl":true,"streetViewControl":false,"zoom":16,"zoomControl":true,"maxZoom":20,"mapId":""},
-        "mapsApiKey": "AIzaSyDLdJsow65IRGIN41RweNvjUmv12eH2bvs"
+        "mapsApiKey": "AIzaSyCyAsu_r-Je_N-LFQSXkUdohFPdxFsnI9s"
       };
 
       function initMap() {
