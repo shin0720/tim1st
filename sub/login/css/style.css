@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'S-CoreDream';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'S-CoreDream';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* 리셋 */
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+img{ display: block; width: 100%;}
+
+a{color: #333; text-decoration: none;display: block;}
+
+
+#wrap{width: 400px; margin: 0 auto;}
+#header{height: 90px;}
+#login{height: 350px;}
+#footer{height: 50px; background-color: #ffd9ba;}
+
+.container{
+    width: 320px;
+    margin: 0 auto;
+}
+
+
+/* 헤더영역 */
+.header{padding-top: 10px;}
+.header a{
+    width: 140px;
+    height: 70px;
+    margin: auto;    
+}
+.header a img{}
+
+/* 로그인영역 */
+.login{
+    padding: 15px;
+}
+.login_qr{
+    width: 220px;
+    height: 220px;
+    margin: auto;    
+}
+.login_text{
+    height: 100px;    
+    text-align: center;
+    padding-top: 40px;
+}
+.login_text p{
+    font-family: 'S-CoreDream';
+    font-weight: 400;
+    font-size: 18px;    
+}
+.login_text b{
+    font-family: 'S-CoreDream';
+    font-weight: 600;
+    font-size: 18px;
+    color: #ff7607;
+}
+
+/* 푸터영역 */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer a{
+    font-family: 'S-CoreDream';
+    font-weight: 400;
+    font-size: 12px;
+    padding: 10px;
+}

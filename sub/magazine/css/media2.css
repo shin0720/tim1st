@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* 1450px */
+@media screen and (max-width: 1450px) {
+    .container {
+        max-width: 1270px;
+        padding: 0 100px;
+
+    }
+    .banner .banner_text {
+        top: 40px;
+        font-size: 45px;
+    }
+
+    #footer .f_logo img {
+        display: none;
+    }
+}
+
+
+/* 1260px */
+@media screen and (max-width: 1240px) {
+    .container {
+        max-width: 900px;
+        padding: 0 20px;
+    }
+
+    .banner .banner_text {
+        font-size: 35px;
+        top: 40px;
+    }
+
+    #footer .f_asid .f_menu ul {
+        padding-left: 0;
+        justify-content: center;
+        padding: 20px;
+    }
+
+
+}
+
+
+/* 960px */
+@media screen and (max-width: 960px) {
+    .container {
+        max-width: 700px;
+        padding: 0 0px;
+    }
+    .banner .banner_text {
+        font-size: 30px;
+       
+    }
+    .content .text {
+        padding: 20px;
+    }
+    .banner .banner_text_2 {
+       font-size: 15px;
+       font-weight: bold;
+       bottom: 10px;
+    }
+    .content .text {
+        font-size: 16px;
+    }
+    #footer {
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width: 890px) {}
+
+@media screen and (max-width: 830px) {}
+
+/* 760px */
+@media screen and (max-width: 760px) {
+    .container {
+        max-width: 550px;
+    }
+
+    #header {
+        height: 80px;
+    }
+
+
+    #header .logo img {
+        max-width: 150px;
+    }
+    .banner .banner_text {
+    top: 30px;
+    left: 20px;}
+     .banner .banner_text {
+        font-size: 25px;
+       
+    }
+    .banner .banner_text_2 {
+       font-size: 14px;
+       font-weight: bold;
+       bottom: 10px;
+    }
+    .content .text {
+        font-size: 14px;
+    }
+
+
+    #footer .f_asid span {
+        font-size: 11px;
+    }
+
+    #footer .f_asid .f_copy {
+        font-size: 10px;
+
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+}
+
+/* 630px */
+@media screen and (max-width: 630px) {
+    .container {
+        max-width: 450px;
+    }
+
+    #header {
+        height: 70px;
+    }
+
+    #header .logo img {
+        max-width: 120px;
+        padding-top: 5px;
+    }
+   .banner .banner_text {
+        font-size: 20px;
+       
+    }
+    .banner .banner_text_2 {
+       font-size: 12px;
+    }
+    .content .text {
+        font-size: 12px;
+    }
+
+    #footer .f_asid .f_menu {
+        display: none;
+    }
+
+    #footer .f_asid span {
+        font-size: 11px;
+        display: block;
+        border-right: none;
+        margin-bottom: 5px;
+        padding-right: 0;
+    }
+
+    #footer .f_asid br.none {
+        display: none;
+    }
+
+    #footer .f_asid .f_copy span {
+        font-size: 9px;
+        display: inline;
+    }
+
+    #footer .f_asid .f_copy {
+        margin-top: 0;
+        padding-bottom: 20px;
+    }
+
+    #footer .f_asid .f_cont {
+        padding: 20px;
+    }
+}
+
+
+
+/* 500px */
+@media screen and (max-width: 500px) {
+    .banner .banner_text {
+        font-size: 15px;
+        top: 20px;
+        left: 10px;
+       
+    }
+    .banner .banner_text_2 {
+       font-size: 10px;
+       
+    }
+    .content .text {
+        font-size: 10px;
+    }
+
+    #footer {
+        margin-top: 0px;
+    }
+
+    #footer .f_logo img {
+        width: 120px;
+        height: 60px;
+    }
+
+    #footer .f_asid .f_menu ul>li>a {
+        font-size: 12px;
+    }
+
+    #footer .f_asid span {
+        font-size: 10px;
+    }
+}
+
+/* 480px */
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 0 8px;
+        max-width: 340px;
+    }
+    #footer .f_asid span {
+        font-size: 9px;
+    }
+
+    #footer .f_asid {
+        padding-bottom: 0;
+    }
+
+}
+
+@media screen and (max-width: 400px) {}
+
+@media screen and (max-width: 360px) {}

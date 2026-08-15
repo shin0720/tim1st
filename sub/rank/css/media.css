@@ -1,0 +1,502 @@
+@charset "utf-8";
+/* 1450px */
+@media screen and (max-width: 1450px) {
+     body{
+  overflow-x: hidden;
+}
+    .container {
+    width: 100%;
+    padding: 0 20px;
+    }
+
+    #footer .f_logo img {
+    display: none;
+    }
+}
+
+
+/* 1260px */
+        @media screen and (max-width: 1260px) {
+            /* .container {
+                width: 100%;
+                max-width: 1200px;
+                padding: 0 20px;
+            } */
+            
+            .rank {
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                transform: none;
+            }
+            
+            .rank .gal {
+                width: 90%;
+                max-width: 500px;
+                height: 250px;
+            }
+            
+            .rank .company {
+                width: 90%;
+                max-width: 500px;
+                margin-top: 30px;
+            }
+            .rank .company span ul li::after {
+                width: 70%;
+                left: 63px;
+            }
+        }
+
+        /* 1240px */
+        @media screen and (max-width: 1240px) {
+            /* .container {
+                max-width: 1100px;
+            } */
+            
+           
+            
+            .rank .company span ul li::after {
+                left: 60px;
+            }
+            #footer .f_asid .f_menu ul {
+                padding-left: 0;
+                justify-content: center;
+                padding: 20px;
+            }
+            
+            
+        }
+
+        /* 960px */
+        @media screen and (max-width: 960px) {
+            /* .container {
+                max-width: 900px;
+                padding: 0 15px;
+            } */
+            
+            .rank {
+                width: 80%;
+                padding-bottom: 50px;
+            
+            }
+            
+            .rank h2 {
+                margin-top: 15px;
+                font-size: 21px;
+                width: auto;
+                height: auto;
+            }
+            
+            .rank .gal {
+                margin-top: 15px;
+                height: auto;
+                width: 70%;
+            }
+            
+            .rank .company {
+                width: 70%;
+                height: 250px;
+            }
+            .rank .company span {
+                font-size: 14px;
+            height: 25px;
+            }
+            .rank .company span ul li::after {
+                width: 70%;
+            }
+            
+            .butten img {
+                width: 100px;
+                height: 45px;
+            }
+            
+            .butten h3 {
+                right: 50px;
+                top: 30px;
+                font-size: 15px;
+            }
+            
+            #footer {
+            height: 200px;
+            }
+            
+        }
+        @media screen and (max-width: 890px) {
+            .rank .company span ul li::after {
+                width: 63%;
+                left: 70px;
+            }
+        }
+        @media screen and (max-width: 830px) {
+            .rank .company span ul li::after {
+                width: 60%;
+            }
+        }
+        /* 760px */
+        @media screen and (max-width: 760px) {
+            #header {
+                height: 80px;
+            }
+            
+            #header .logo img {
+                max-width: 150px;
+            }
+            
+            .rank {
+                margin: 100px auto 20px;
+                border-radius: 20px;
+            }
+            
+            .rank h2 {
+                font-size: 19px;
+                margin-top: 15px;
+            }
+            
+            .rank .gal {
+                height: 200px;
+                margin-top: 20px;
+            }
+            
+            .rank .company span {
+                font-size: 14px;
+                height: 25px;
+            }
+            
+
+            
+            .rank .company span ul li {
+                font-size: 12px;
+            }
+            .rank .company span ul li p{
+                font-size: 11px;
+            }
+            
+            .rank .company span ul li::after {
+                width: 53%;
+            }
+            
+            .butten {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+            }
+            
+            .butten img {
+                position: static;
+                width: 100px;
+                height: 39px;
+            }
+            
+            .butten h3 {
+                position: static;
+            }
+            
+            .butten h3 a {
+                font-size: 13px;
+                position: absolute;
+                top: 10px;
+                right: 35px;
+            }
+      
+            
+            #footer .f_asid span {
+            font-size: 11px;}
+            
+            #footer .f_asid .f_copy {
+                font-size: 10px;
+                
+            }
+            
+            
+        }
+        @media screen and (max-width: 700px) {
+            .rank .company span ul li::after {
+                width: 50%;
+            }
+        }
+            
+        /* 630px */
+        @media screen and (max-width: 630px) {
+            
+            
+            #header {
+                height: 70px;
+            }
+            
+            #header .logo img {
+                max-width: 120px;
+                padding-top: 5px;
+            }
+            
+            .rank {
+                margin: 90px auto 15px;
+                border-radius: 15px;
+            }
+            
+            .rank h2 {
+                font-size: 17px;
+                margin-top: 10px;
+            }
+            
+            .rank .gal {
+                height: 180px;
+                margin-top: 15px;
+            }
+            
+            .rank .company {
+                padding: 12px;
+                margin-top: 15px;
+            }
+            
+            .rank .company span {
+                font-size: 13px;
+                height: auto;
+                margin-bottom: 8px;
+            }
+            .rank .company span p {
+                font-size: 11px;
+            }
+            
+            .rank .company .con_star {
+                float: none;
+                display: block;
+                margin-bottom: 5px;
+            }
+            
+            .rank .company span ul li {
+                font-size: 11px;
+                height: 18px;
+            }
+            .rank .company span ul li p{
+                font-size: 10px;
+            }
+            
+            .rank .company span ul li::after {
+                width: 40%;
+      
+            }
+            #footer .f_asid .f_menu{
+                display: none;
+            }
+            
+            #footer .f_asid span {
+                font-size: 11px;
+                display: block;
+                border-right: none;
+                margin-bottom: 5px;
+                padding-right: 0;
+            }
+            #footer .f_asid br.none{
+                display: none;
+            }
+            #footer .f_asid .f_copy span{
+                font-size: 9px;
+                display: inline;
+            }
+            #footer .f_asid .f_copy{
+                margin-top: 0;
+                padding-bottom: 20px;
+            }
+            #footer .f_asid .f_cont{
+            padding: 20px;
+            }
+        }
+         @media screen and (max-width: 560px) {
+            .rank .company span ul li::after {
+                width: 30%;
+            }
+            
+            .butten img {
+                position: static;
+                width: 80px;
+                height: 30px;
+            }
+            
+            .butten h3 {
+                position: static;
+            }
+            
+            .butten h3 a {
+                font-size: 11px;
+                top: 8px;
+                right: 28px;
+            }
+            .rank .company {
+                margin-top: 0px;
+            }
+      
+         }
+           
+
+        /* 500px */
+        @media screen and (max-width: 500px) {
+            .rank h2 {
+                font-size: 16px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 5px;
+            }
+            
+            .rank .gal {
+                height: 160px;
+            }
+            
+            .rank .company {
+                padding: 10px;
+                height: 215px;
+            }
+            
+            .rank .company span {
+                font-size: 12px;
+            }
+            
+            .rank .company span p {
+                font-size: 11px;
+            }
+            
+            .rank .company span ul {
+                padding: 3px 5px;
+            }
+            
+            .rank .company span ul li {
+                font-size: 10px;
+                height: 16px;
+            }
+            
+            .rank .company span ul li::after {
+                width: 30%;
+            }
+            
+            .butten img {
+                width: 80px;
+                height: 31px;
+            }
+            
+            .butten h3 a {
+                font-size: 11px;
+            }
+            
+            #footer .f_logo img {
+                width: 120px;
+                height: 60px;
+            }
+            
+            #footer .f_asid .f_menu ul>li>a {
+                font-size: 12px;
+            }
+            
+            #footer .f_asid span {
+                font-size: 10px;
+            }
+        }
+
+        /* 480px */
+        @media screen and (max-width: 480px) {
+            /* .container {
+                padding: 0 8px;
+            } */
+            
+            #header {
+                height: 60px;
+            }
+            
+            #header .logo img {
+                max-width: 100px;
+            }
+            
+            .rank {
+                margin: 80px auto 10px;
+                border-radius: 12px;
+                padding-bottom: 15px;
+            }
+            
+            .rank h2 {
+                font-size: 15px;
+                margin-top: 8px;
+            }
+            
+            .rank h2 img {
+                width: 16px;
+                height: 16px;
+            }
+            
+            .rank .gal {
+                height: 140px;
+                margin-top: 12px;
+            }
+            
+            .rank .company {
+                padding: 8px;
+                border-radius: 8px;
+                height: 205px;
+            }
+            
+            .rank .company span {
+                font-size: 11px;
+                margin-bottom: 6px;
+            }
+            
+            .rank .company span p {
+                font-size: 10px;
+            }
+            
+            .rank .company .con_star strong img {
+                width: 16px;
+                height: 16px;
+            }
+            
+            .rank .company span ul {
+                padding: 2px 3px;
+            }
+            
+            .rank .company span ul li {
+                font-size: 9px;
+                height: 14px;
+            }
+            
+            .rank .company span ul li::after {
+                width: 25%;
+            }
+            
+            .butten img {
+                width: 65px;
+                height: 25px;
+            }
+            
+            .butten h3 a {
+                font-size: 10px;
+                right: 20px;
+                top: 5px;
+            }
+            
+            #footer .f_asid span {
+                font-size: 9px;
+            }
+            #footer .f_asid {
+                padding-bottom: 0;
+            }
+            
+        }
+        @media screen and (max-width: 400px) {
+            .rank .company span ul li::after {
+                width: 18%;
+            }
+        }
+        
+        @media screen and (max-width: 360px) {
+            .rank .company span ul li::after {
+                width: 13%;
+                left: 65px;
+            }
+            .butten img {
+                width: 50px;
+                height: 20px;
+            }
+            
+            .butten h3 a {
+                font-size: 8px;
+                right: 15px;
+                top: 4px;
+            }
+        }
